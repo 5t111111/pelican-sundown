@@ -49,14 +49,14 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#333333;
   font-weight:400;
   text-decoration:none;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#333333;
   margin-top:-3px;
   display:block;
 }
