@@ -32,14 +32,18 @@ h3 {
   line-height:1.1;
 }
 
-h1, h2 {
+h1 {
+  font-size:20px;
+}
+
+h2 {
   font-size:16px;
   border-bottom: 1px solid #a9a9a9;
 }
 
 h3, h4, h5, h6 {
   font-size: 14px;
-  color:#494949;
+  color:rgb(74, 74, 74);
   font-weight: bold;
 }
 
@@ -136,7 +140,7 @@ header ul a {
 }
 
 strong {
-  color:#222;
+  color:rgb(74, 74, 74);
   font-weight:700;
 }
 
