@@ -2,10 +2,12 @@
 
 body {
   padding:50px 0 50px 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:14px;
-  color: rgb(74, 74, 74);
+  font-family: 'Helvetica Neue','Arial','Hiragino Kaku Gothic Pro','Meiryo','MS PGothic',sans-serif;
+  color: #454545;
+  font-size:16px;
   line-height:1.6em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .grv-img {
@@ -17,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:rgb(74, 74, 74);
+  font-family: Lato, 'Helvetica Neue','Arial','Hiragino Kaku Gothic Pro','Meiryo','MS PGothic',sans-serif;
   margin:0 0 20px;
 }
 p, ul, ol, table, pre, dl {
@@ -25,7 +27,7 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2 {
-  line-height:1.5;
+  line-height: 200%;
 }
 
 h3 {
@@ -33,29 +35,28 @@ h3 {
 }
 
 h1 {
-  font-size:20px;
+  font-size: 180%;
 }
 
 h2 {
-  font-size:16px;
-  border-bottom: 1px solid #a9a9a9;
+  font-size:140%;
+  color: #428bca;
+  text-shadow: 0 0 12px cyan;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 h3, h4, h5, h6 {
-  font-size: 14px;
-  color:rgb(74, 74, 74);
+  font-size: 16px;
   font-weight: bold;
 }
 
 a {
-  color:rgb(74, 74, 74);
   font-weight:400;
   /* text-decoration:none; */
 }
 
 a small {
   font-size:13px;
-  color:rgb(74, 74, 74);
   margin-top:-3px;
   display:block;
 }
@@ -72,15 +73,13 @@ blockquote {
   font-style:italic;
 }
 
-code, pre {
+pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
-  font-size:12px;
 }
 
-pre {
+.highlight pre {
+  font-size: 80%;
   padding:8px 15px;
-  background: #f8f8f8;  
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -145,7 +144,7 @@ strong {
 }
 
 header .title {
-  font-size: 28px;
+  font-size: 200%;
   letter-spacing:0.0em;
   padding-top: 2px;
   padding-bottom: 8px;
@@ -307,11 +306,25 @@ footer small {
 }
 
 .front-title a {
-  font-family:"Hiragino Mincho Pro W6", "Hiragino Mincho Pro", "MS PMincho", serif;
-  color: rgb(74, 74, 74);
+  font-family: Lato, "Hiragino Mincho Pro W6", "Hiragino Mincho Pro", "MS PMincho", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 360%;
   font-weight: bold;
+  color: #428bca;
+  text-shadow: 0 0 12px cyan;
+  line-height: 100%;
   text-decoration: none;
-  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.article-title {
+  font-family: Lato, "Hiragino Mincho Pro W6", "Hiragino Mincho Pro", "MS PMincho", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 360%;
+  font-weight: bold;
+  color: #428bca;
+  text-shadow: 0 0 12px cyan;
+  line-height: 100%;
+  text-decoration: none;
+  margin-bottom: 18px;
 }
 
 .read-more {
@@ -322,15 +335,6 @@ footer small {
 
 .sub-title {
   font-size: 14px;
-}
-
-.article-title {
-  font-family:"Hiragino Mincho Pro W6", "Hiragino Mincho Pro", "MS PMincho", serif;
-  color: rgb(74, 74, 74);
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 24px;
-  margin-bottom: 18px;
 }
 
 .entry-content {
