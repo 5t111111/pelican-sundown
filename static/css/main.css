@@ -40,7 +40,8 @@ h3 {
 }
 
 h1 {
-  font-size: 180%;
+  color: #505050;
+  font-size: 240%;
 }
 
 h2 {
@@ -63,8 +64,11 @@ h4, h5, h6 {
 a {
   font-weight:400;
   /* text-decoration:none; */
+  color: rgb(38, 138, 177)
 }
-
+a:visited {
+  color: rgb(190, 93, 190)
+}
 a small {
   font-size:13px;
   margin-top:-3px;
@@ -89,7 +93,6 @@ pre {
 
 .highlight pre {
   font-size: 80%;
-  color: #333333;
   padding:8px 15px;
   border-radius:5px;
   border:1px solid #e5e5e5;
@@ -163,6 +166,11 @@ header .title {
 }
 
 header a {
+  text-decoration: none;
+  color:rgb(74, 74, 74);
+}
+
+header a:visited {
   text-decoration: none;
   color:rgb(74, 74, 74);
 }
